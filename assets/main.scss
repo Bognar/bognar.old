@@ -5,4 +5,7 @@
 body {background-color: #0d0d0d; color:#fdfdfd;}
 a {color: #fd6a02;}
 a:visited {color: #fd6a02;}
+a:hover {color: #fd6a02;}
 .site-nav .page-link {color: #fd6a02;}
+.highlight {background-color: transparent !important;}
+pre, code {background-color: transparent !important; border: 0.5px dashed #dddddd;}

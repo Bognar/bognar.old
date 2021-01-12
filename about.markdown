@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Considering that I have 14 years of experience working as tech support, I have developed a good work ethic, teamwork, interpersonal communication, flexibility, problem-solving, and empathy. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I am interested in jobs such as application support, technical support, platform support, or network support. Some of the operating systems I work with are Windows, Linux(Red Hat Linux, CentOS, Ubuntu), macOS, iOS, and Android devices. I am also proficient in web and mobile development with Ionic, Angular, HTML, SCSS, Git, Java, javaScript, NPM, Firebase, NodeJS, Jekyll, PowerShell and much more.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Currentley I am working as a Service Desk Engineer and dealing with SCCM, Azure, VM's, Networking, Laptop and PC building etc..

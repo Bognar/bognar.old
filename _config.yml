@@ -29,6 +29,7 @@ github_username:  bognar
 
 
 # Build settings
+show_excerpts: true
 theme: minima
 plugins:
   - jekyll-feed

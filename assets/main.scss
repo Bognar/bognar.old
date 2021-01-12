@@ -7,6 +7,17 @@ body {background-color: #0d0d0d; color:#fdfdfd; overflow: overlay;}
 a {color: #fd6a02;}
 a:visited {color: #fd6a02;}
 a:hover {color: #fd6a02;}
+.featuredimages {width:340px; height: auto;}
 .site-nav .page-link {color: #fd6a02;}
 .highlight {background-color: transparent !important;}
 pre, code {background-color: transparent !important; border: 0.5px dashed #dddddd;}
+.postblock {width: 340px;
+    height: auto;
+    background-color: #000000;
+    display: block;
+    float: left;
+    border-radius: 0px 0px 10px 10px;
+    border: 0.5px solid #ffffff;
+    margin-right: 8px;
+    padding: 10px;}
+    

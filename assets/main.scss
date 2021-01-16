@@ -19,11 +19,9 @@ article {margin-right: 10px; padding: 10px; }
 .site-title, .site-title:visited { color: #000000; }
 .wrapper { max-width: -webkit-calc(1336px - (30px * 2)); max-width: calc(1336px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 .post-content { margin-bottom: 30px; Width: 800px; }
+.small-title {margin-left: 10px; display: block; padding-top: 18px; color: #bfbcbc; float: left; }
 /* Share Bar */
-#share-bar {
-    font-size: 20px;
-    
-}
+#share-bar {font-size: 20px;}
 
 /* Title */
 #share-bar h4 {

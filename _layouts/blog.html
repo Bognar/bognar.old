@@ -40,7 +40,7 @@ layout: default
       </li>
 
       {% endfor %}
-      <h1 class="page-heading">Latest Posts</h1>
+     
       {%- for post in posts offset:1 -%}
       <li>
         <span class="postblock"><a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" class="featuredimages" ></img></a>
@@ -50,9 +50,7 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt | strip_html }}
-        {%- endif -%} </span>
+       </span>
       </li>
       {%- endfor -%}
     </ul>

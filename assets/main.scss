@@ -2,19 +2,19 @@
 ---
 
 @import "minima";
-body {background-color: #0d0d0d; color:#fdfdfd; overflow: overlay;}
-.page-content {background-image: url(/assets/img/background.jpg); background-attachment: fixed;}
-a {color: #fd6a02;}
-a:visited {color: #fd6a02;}
-a:hover {color: #fd6a02;}
-.featuredimages {width:340px; height: auto;}
-.featuredimages2 {width:680px; height: auto;}
-.site-nav .page-link {color: #fd6a02;}
+body {background-color: #ffffff; color:#000000; overflow: overlay;}
+a {color: #000000;}
+a:visited {color: #000000;}
+a:hover {color: #000000;}
+.featuredimages {width:280px; height: auto;}
+.featuredimages2 {width:600px; height: auto;}
+.site-nav .page-link {color: #000000;}
 .highlight {background-color: transparent !important;}
 pre, code {background-color: transparent !important; border: 0.5px dashed #dddddd;}
-.postblock {width: 340px; height: auto; background-color: #000000; display: block; float: left; border-radius: 0px 0px 10px 10px; border: 0.5px solid #ffffff; margin-right: 8px; padding: 10px; margin-bottom: 10px;}
-.postblock2 {width: 680px; height: auto; background-color: #000000; display: block; float: left; border-radius: 0px 0px 10px 10px; border: 0.5px solid #ffffff; margin-right: 8px; padding: 10px; margin-bottom: 10px;}
-.page-heading {font-size: 32px; border-bottom: 0.5px solid #fd6a02; }
-article {background-color: black; padding: 10px; border: 0.5px solid #dfdfdf;}
-.wrapper2 { max-width: -webkit-calc(100% - (30px * 2)); max-width: calc(100% - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
-.site-title, .site-title:visited { color: #fd6a02; }
+.postblock {width: 280px; height: auto; background-color: #ffffff; display: block; float: left; border-bottom: 1px solid rgb(229, 229, 229);border-right:1px solid rgb(229, 229, 229); margin-right: 8px; padding: 10px; margin-bottom: 10px;}
+.postblock2 {width: 600px; height: auto; background-color: #ffffff; display: block; float: left; border-bottom: 1px solid rgb(229, 229, 229); margin-right: 8px; padding: 10px; margin-bottom: 10px;}
+.page-heading {font-size: 32px; border-bottom: 1px solid rgb(229, 229, 229);}
+article {margin-right: 10px; padding: 10px; }
+.wrapper2 { max-width: -webkit-calc(1336px - (30px * 2)); max-width: calc(1336px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+.site-title, .site-title:visited { color: #000000; }
+.wrapper { max-width: -webkit-calc(1336px - (30px * 2)); max-width: calc(1336px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }

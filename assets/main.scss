@@ -24,6 +24,15 @@ article {margin-right: 10px; padding: 10px; }
 .social-links {margin-right: auto; margin-left: auto; display: table;}
 .footer-col-wrapper {font-size: 15px; color: #828282; margin-left: -15px; max-width: -webkit-calc(35% - (30px * 2)); max-width: calc(35%- (30px * 2)); float:left;}
 .footer-col { float: left; margin-bottom: 15px; padding-right: 10px; padding-left: 15px; }
+.feather {width: 50%; float: right; height: auto; margin-top: 10%; }
+.feathertext {
+    display: block;
+    width: 50%;
+    text-align: center;
+    color: darkgray;
+    margin-top: 10%;
+    float: left;
+}
 /* Share Bar */
 #share-bar {font-size: 20px;}
 .page-link {font-family: crazy; font-size: 30px;}

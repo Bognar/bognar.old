@@ -8,6 +8,7 @@ a:visited {color: #000000;}
 a:hover {color: #000000; text-decoration: none;}
 .featuredimages {width:280px; height: auto;}
 .featuredimages2 {width:600px; height: auto;}
+.postimage { width: 100%; height: auto;}
 .site-nav .page-link {color: #000000;}
 .highlight {background-color: transparent !important;}
 pre, code {background-color: transparent !important; border: 0.5px dashed #dddddd;}
@@ -18,13 +19,20 @@ article {margin-right: 10px; padding: 10px; }
 .wrapper2 { max-width: -webkit-calc(1336px - (30px * 2)); max-width: calc(1336px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 .site-title, .site-title:visited { color: #000000; font-family: crazy; font-size: 40px;}
 .wrapper { max-width: -webkit-calc(1336px - (30px * 2)); max-width: calc(1336px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
-.post-content { margin-bottom: 30px; Width: 800px; }
+.post-content { margin-bottom: 30px; Width: 65%; float:left}
 .small-title {margin-left: 10px; display: block; padding-top: 18px; color: #bfbcbc; float: left; }
 .socialicons {display: block; float: left; width: 40px; height: 40px; margin-right: auto; margin-left: auto; padding-right: 20px;}
 .social-links {margin-right: auto; margin-left: auto; display: table;}
 .footer-col-wrapper {font-size: 15px; color: #828282; margin-left: -15px; max-width: -webkit-calc(35% - (30px * 2)); max-width: calc(35%- (30px * 2)); float:left;}
 .footer-col { float: left; margin-bottom: 15px; padding-right: 10px; padding-left: 15px; }
 .feather {width: 50%; float: right; height: auto; margin-top: 10%; }
+img { max-width: 100%; vertical-align: middle; height: auto; }
+#share-bar { font-size: 20px; width: 35%; float: left; display: block; }
+@media (max-width: 900px) {  
+    .post-content { margin-bottom: 30px; Width: 100%; float:left}
+    #share-bar { font-size: 20px; width: 100%; float: left; display: block; }
+    .catmenu { display: block; float: left; width: 100%; min-height: 50px;}
+}
 .feathertext {
     display: block;
     width: 50%;
@@ -33,6 +41,7 @@ article {margin-right: 10px; padding: 10px; }
     margin-top: 10%;
     float: left;
 }
+.catmenu { display: block; float: left; width: 35%; min-height: 50px; text-align: center;}
 h1 {font-family: crazy;}
 /* Share Bar */
 #share-bar {font-size: 20px;}

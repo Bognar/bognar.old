@@ -33,6 +33,20 @@ img { max-width: 100%; vertical-align: middle; height: auto; }
     #share-bar { font-size: 20px; width: 100%; float: left; display: block; }
     .catmenu { display: block; float: left; width: 100%; min-height: 50px;}
 }
+@media (max-width: 610px) {
+    .featuredimages2 {width:400px; height: auto;}
+    .postblock2 {
+        width: 400px;
+        height: auto;
+        background-color: #ffffff;
+        display: block;
+        float: left;
+        border-bottom: 1px solid #e5e5e5;
+        margin-right: 8px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
 .feathertext {
     display: block;
     width: 50%;

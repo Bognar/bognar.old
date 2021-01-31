@@ -10,5 +10,5 @@ You can find here more about me. If you want to connect or check some of my blog
 <br> <br>
 For a CV, please e-mail me or send me a direct message on <a href="https://www.linkedin.com/in/josip-bognar/">LinkedIn</a>.
 </span>
-<span><img class="feather" src="assets/img/feather.png"></span>
+<span><img class="feather" src="assets/img/personal.jpg"></span>
 </div>

@@ -33,6 +33,9 @@ img { max-width: 100%; vertical-align: middle; height: auto; }
     #share-bar { font-size: 20px; width: 100%; float: left; display: block; }
     .catmenu { display: block; float: left; width: 100%; min-height: 50px;}
 }
+.post-header {border-bottom: 5px solid black; }
+.metaimgdate { width: 20px; height: auto; margin-right: 5px; }
+.site-header { border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; margin-top: 50px; }
 @media (max-width: 610px) {
     .featuredimages2 {width:400px; height: auto;}
     .postblock2 {
@@ -55,7 +58,7 @@ img { max-width: 100%; vertical-align: middle; height: auto; }
     margin-top: 10%;
     float: left;
 }
-.catmenu { display: block; float: left; width: 35%; min-height: 50px; text-align: center;}
+.catmenu { display: block; float: left; width: 35%; min-height: 50px; text-align: center; min-width: 400px;}
 h1 {font-family: math;}
 /* Share Bar */
 #share-bar {font-size: 20px;}

@@ -4,8 +4,9 @@ comments: true
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+  <header class="post-header"><span style="float:right;"><img class="feather2" src="/assets/img/personal.jpg"></span>
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+   
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <img class="metaimgdate" src="/assets/img/DT.png">
@@ -27,13 +28,25 @@ comments: true
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
-  </header>
+      
+  </header> 
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
   <div class="catmenu"><h1>What about these articles</h1> <br>
-  
+  <ul style="list-style-type:none;">
+    {%- for post in site.posts -%}
+    <li class="postitemsmenu">
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+     </span>
+    </li>
+    {%- endfor -%}
+  </ul>
   </div>
   {% include share.html %}
   

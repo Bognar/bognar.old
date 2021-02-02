@@ -11,7 +11,18 @@
       <div class="wrapper">
        {{ content }}
        <div class="catmenu"><h1>What about these articles</h1> <br>
-  
+        <ul style="list-style-type:none;">
+          {%- for post in site.posts -%}
+          <li class="postitemsmenu">
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+           </span>
+          </li>
+          {%- endfor -%}
+        </ul>
        </div>
       </div>
       

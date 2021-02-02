@@ -10,5 +10,5 @@ I am hobby Full-Stack developer and Service Desk Engineer who loves IoT. If you 
 <br> <br>
 For a CV, please e-mail me or send me a direct message on <a href="https://www.linkedin.com/in/josip-bognar/">LinkedIn</a>.
 </span>
-<span><img class="feather" src="assets/img/personal.jpg"></span>
+<span><img class="feather" src="/assets/img/personal.jpg"></span>
 </div>

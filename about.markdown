@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Considering that I have 14 years of experience working as tech support, I have developed a good work ethic, teamwork, interpersonal communication, flexibility, problem-solving, and empathy. 
+Hi, and thanks for reading this!
 
-I am interested in jobs such as application support, technical support, platform support, or network support. Some of the operating systems I work with are Windows, Linux(Red Hat Linux, CentOS, Ubuntu), macOS, iOS, and Android devices. I am also proficient in web and mobile development with Ionic, Angular, HTML, SCSS, Git, Java, javaScript, NPM, Firebase, NodeJS, Jekyll, PowerShell and much more.
+Let's start with my name, my name is Josip Bognar and I was born in a small village called Laslovo(Eastern part of Croatia). My life journey was bumpy so I have lived also in Szigetvár (Hungary) and from 2019 in Dublin(Ireland).
 
-Currentley I am working as a Service Desk Engineer and dealing with SCCM, Azure, VM's, Networking, Laptop and PC building etc..
+I am a proactive person and from my young age, I've tried to do a lot of things like Ornithology, Origami, Kirigami, sales business, and much more. My big passion was and still is technology, I invest a lot of time to find out how things work, to make something easier on my job, or find a way to automate some process/ routine jobs.
+There are two major sides of me in technology, one is being a full-stack developer dealing with HTML, CSS, SCSS, JavaScript, Typescript, Angular, Ionic, Firebase, NodeJS, NPM, GEM, Git Jekyll, MySQL, PostgreSQL, restful API development, mobile app development with a slight touch of Java, C++, Android Studio, Qbasic. And another side is being Service Desk Engineer, App/Technical support where I am exposed to a lot of different technologies such as Windows Server, Azure, AWS, Active Directory, GPO's, SCCM, PXE servers, PowerShell scripting, Bash scripting, Linux, and Linux servers, VM's, Networking, Laptop and PC building etc..
+

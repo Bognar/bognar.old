@@ -22,7 +22,7 @@ getElementById("elementId");
 {% endhighlight %}
 
 But there is a simple way how you can do it by using WYSIWYG editors like TinyMCE. For angular, you can visit https://github.com/tinymce/tinymce-angular.
-
+<img src="{{ page.image }}" class="postimage" alt="post image"> <br>
 To add it to your angular project, just run:
 
 {% highlight ruby %}

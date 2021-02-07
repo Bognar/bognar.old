@@ -1,31 +1,43 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2021-01-10 19:59:31 +0000
-categories: jekyll update
+title:  "How to add TinyMCE editor to angular project"
+date:   2021-02-06 19:59:31 +0000
+categories: Angular, TinyMCE, Web Development
 comments: true
-image: /assets/img/second.jpg
+image: /assets/img/tinymce.png
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Hi all, this is my first post on my blog so I wanted to share some tips with you that I caught by doing one of my blog projects.
 
-Jekyll requires blog post files to be named according to the following format:
+Why is this important?
 
-`YEAR-MONTH-DAY-title.MARKUP`
+To those who have never go deep into posting data to database like firebase real time database or noSQL, this might be really interesting. Sometime we have a need to post whole block of formated data into database, maybe there are some HTML markup's and links etc. So it would be so cool if we could just drop it all to database right? Well, you can post them all under same firebase node in database but many will say "is it ok to post it there with all formatings?" and the short answer is yes, you can! What's more Wordpress, as one of top CMS apps, is doing it also!
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+How can we do it?
 
-Jekyll also offers powerful support for code snippets:
+You could use javaScript:
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+getElementById("elementId");
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+But there is a simple way how you can do it by using wysiwyg editors like TinyMCE. For angular you can visit https://github.com/tinymce/tinymce-angular.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+To add it to your angular project, just run:
+
+{% highlight ruby %}
+npm install @tinymce/tinymce-angular
+{% endhighlight %}
+
+After that, import it into your module.ts file and add it under imports:
+{% highlight ruby %}
+import { EditorModule } from '@tinymce/tinymce-angular';
+imports: [
+    BrowserModule,
+    EditorModule // <- Important part
+{% endhighlight %}
+Now to use it in your HTML you can add this code and check how we implemented two-way binding data to variable.
+{% highlight ruby %}
+<editor [(ngModel)]="textdata" apiKey="" [init]="{plugins: 'link'}"></editor>
+{% endhighlight %}
+After that, you can freely use editor to format text and set your typescript code to send data to you database. Api key is provided after you register on TinyMCE webpage.
+Hope you had a nice time and if you find this to be useful to you, drop me a message.

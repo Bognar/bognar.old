@@ -6,6 +6,8 @@ categories: tech, Web Development
 author: Josip Bognar
 image: /assets/img/arjs.png
 ---
+Augmented reality (AR) was one of the biggest technology trends of 2017 and while many developers still are trying to find a good online library, there are a few scripts out there that can give us really nice effects.
+
 Today I will show you a few simple steps to create an augmented reality effect on your website by using ar.js. 
 Thanks to Jerome Etienne repo: <a src="https://github.com/AR-js-org">ar.js</a>, and also OBJ and MTL files from Ben Desai @ poly.google.com
 

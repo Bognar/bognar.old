@@ -25,9 +25,19 @@ comments: true
        
           <span itemprop="author" itemscope itemtype="http://schema.org/Person"> <img class="metaimgdate" src="/assets/img/author.png">
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-            {%- if forloop.last == false %}, {% endif -%}
+            {%- if forloop.last == false %} {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
+      {%- endif -%}
+      {%- if page.categories -%}
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person"> <img class="metaimgdate" src="/assets/img/tags.png">
+      {% for categories in page.categories %}
+     
+        
+          <span class="p-author h-card" itemprop="name">{{ categories }}</span>
+          {%- if forloop.last == false %} {% endif -%}
+      {% endfor %} </span>
+    {%- endif -%}</p>
+    </p>
       
   </header> 
 

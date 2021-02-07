@@ -6,9 +6,8 @@ categories: tech, Web Development
 author: Josip Bognar
 image: /assets/img/arjs.png
 ---
-Today I will show you a few simple steps to create augmented reality effect on your website by using ar.js. 
-Thanks to Jerome Etienne repo: ar.js
-Also obj and mtl files from Ben Desai @ poly.google.com
+Today I will show you a few simple steps to create an augmented reality effect on your website by using ar.js. 
+Thanks to Jerome Etienne repo: <a src="https://github.com/AR-js-org">ar.js</a>, and also OBJ and MTL files from Ben Desai @ poly.google.com
 
 {% highlight ruby %}
 <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
@@ -24,7 +23,7 @@ Also obj and mtl files from Ben Desai @ poly.google.com
 
 <img src="{{ page.image }}" class="postimage" alt="post image"> <br>
 
-After this is implemented, we need to add objects inside a-maker tags. As already mentioned, I will use obj and mtl files downloaded from poly.google.com. Before we add code inside tags, we need to upload it to github account and use link to raw data of obj and mtl files. To do that, after we upload files, click on each file and on the right side there is option raw. Now we just copy url and paste them in our code as seen below.
+After this is implemented, we need to add objects inside a-maker tags. As already mentioned, I will use OBJ and MTL files downloaded from poly.google.com. Before we add code inside tags, we need to upload it to the GitHub account and use links to raw data of OBJ and MTL files. To do that, after we upload files, click on each file, and on the right side, there is option raw. Now we just copy URL and paste them into our code as seen below.
 
 
 {% highlight ruby %}
@@ -34,6 +33,6 @@ After this is implemented, we need to add objects inside a-maker tags. As alread
  </a-entity>
 {% endhighlight %}
 
-Now you can open this html on your laptop or mobile phone and point your camera to image from this link.
-Image can be printed, opened in browser or mobile phone.
+Now you can open this HTML on your laptop or mobile phone and point your camera to the image from this link.
+The image can be printed, opened in a browser or mobile phone.
 

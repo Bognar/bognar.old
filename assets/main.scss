@@ -12,6 +12,8 @@ a:hover {color: #000000; text-decoration: none;}
 .featuredimages2:hover {width:600px; height: auto;filter: grayscale(0%); filter: gray; -webkit-filter: grayscale(0%); filter: none; transition: 1s ease;}
 .postimage { width: 100%; height: auto;}
 .site-nav .page-link {color: #000000;}
+.cube {width:200px; height: auto;filter: grayscale(100%); -webkit-filter: grayscale(100%); -webkit-transition: all 1s ease;}
+.cube:hover {width:200px; height: auto;filter: grayscale(0%); filter: gray; -webkit-filter: grayscale(0%); filter: none; transition: 1s ease;}
 .highlight {background-color: transparent !important;}
 pre, code {background-color: transparent !important; border: 0.5px dashed #dddddd;}
 .postblock {width: 280px; height: 300px; background-color: #ffffff; display: block; float: left; border-bottom: 1px solid rgb(229, 229, 229);border-right:1px solid rgb(229, 229, 229); margin-right: 8px; padding: 10px; margin-bottom: 10px;}

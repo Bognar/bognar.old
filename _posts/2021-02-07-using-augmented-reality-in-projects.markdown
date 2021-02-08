@@ -35,6 +35,7 @@ After this is implemented, we need to add objects inside a-maker tags. As alread
  </a-entity>
 {% endhighlight %}
 
-Now you can open this HTML on your laptop or mobile phone and point your camera to the image from this link.
+Now you can open this HTML on your laptop or mobile phone and point your camera to the image from <a href="https://jeromeetienne.github.io/AR.js/data/images/HIRO.jpg">this link.</a>
 The image can be printed, opened in a browser or mobile phone.
 
+Here is the link to working codepen: <a href="https://codepen.io/iFun_Studios/pen/XGzewv">https://codepen.io/iFun_Studios/pen/XGzewv</a>

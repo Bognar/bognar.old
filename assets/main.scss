@@ -42,6 +42,15 @@ img { max-width: 100%; vertical-align: middle; height: auto; }
 .site-header { border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; margin-top: 50px; }
 @media (max-width: 610px) {
     .featuredimages2 {width:300px; height: auto;}
+    .feather { float: left; display: block; width: 100%;  }
+    .feathertext {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: darkgray;
+        margin-top: 10%;
+        float: left;
+    }
     .postblock2 {
         width: 300px;
         height: auto;

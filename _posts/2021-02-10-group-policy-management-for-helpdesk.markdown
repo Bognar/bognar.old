@@ -37,7 +37,11 @@ GPRESULT /r /s computer_name /scope:computer --- to get policy's applied for rem
 
 From time to time, there will be some device that is not picking up the GPO. First, we need to be sure that the GPO is applied in AD and try a few times restarting device. We can also go to Control Panel and search for the Configuration Manager and under "Action" tab, forcing the cycle but if all this fails, we can also try to delete the Group Policy folder in the registry and force applying again.
 
-For this step, you will need admin rights and start the Registry editor. Navigate to the location HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion and delete the folder called Group Policy.
+For this step, you will need admin rights and start the Registry editor. Navigate to the location:
+{% highlight ruby %}
+ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion 
+ {% endhighlight %}
+ and delete the folder called Group Policy.
 After this step is finished, try again to run GPUPDATE /force command in CMD, restart the device and the issue should be resolved.
 
 I hope this short info will help someone like junior or entry level employee and good luck.

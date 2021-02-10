@@ -45,7 +45,7 @@ img { max-width: 100%; vertical-align: middle; height: auto; }
     .feather { float: left; display: block; width: 100%;  }
     .feathertext {
         display: block;
-        width: 100%;
+        width: 100% !important;
         text-align: center;
         color: darkgray;
         margin-top: 10%;

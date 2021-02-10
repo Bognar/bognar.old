@@ -39,3 +39,5 @@ From time to time, there will be some device that is not picking up the GPO. Fir
 
 For this step, you will need admin rights and start the Registry editor. Navigate to the location HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion and delete the folder called Group Policy.
 After this step is finished, try again to run GPUPDATE /force command in CMD and restart the device and the issue should be resolved.
+
+I hope this short info will help someone like junior or entry level employee and good luck.

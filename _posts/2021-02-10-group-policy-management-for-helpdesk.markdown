@@ -41,7 +41,8 @@ For this step, you will need admin rights and start the Registry editor. Navigat
 {% highlight ruby %}
  HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion 
  {% endhighlight %}
- and delete the folder called Group Policy.
+
+and delete the folder called Group Policy.
 After this step is finished, try again to run GPUPDATE /force command in CMD, restart the device and the issue should be resolved.
 
 I hope this short info will help someone like junior or entry level employee and good luck.

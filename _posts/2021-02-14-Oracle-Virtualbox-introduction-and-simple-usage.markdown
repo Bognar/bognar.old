@@ -36,4 +36,4 @@ The greatest benefits of using this tool are:
 - Give us the possibility to test things before using them in a live environment.
 - Expanding knowledge without worry when we want to try something new.
 
-Hope this small intro will give you some ideas if you still didn't dive into the world or the Virtual Machines.
+Hope this small intro will give you some ideas if you still didn't dive into the world or the Virtual Machines. For those who are already using the VirtualBox, you might also try <a href="https://github.com/hyperbox/hyperbox">Hyperbox</a>, Open-source Virtual Infrastructure Manager.

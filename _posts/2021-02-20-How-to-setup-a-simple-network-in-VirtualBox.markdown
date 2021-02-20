@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to setup simple network in Vbox for AD"
+title:  "How to setup a simple network in Vbox for AD"
 date:   2021-02-20 09:15:31 +0000
 author: Josip Bognar
 categories: tech, Oracle, Virtualization, networking

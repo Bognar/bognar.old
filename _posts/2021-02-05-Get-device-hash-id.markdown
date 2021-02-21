@@ -36,4 +36,4 @@ Get-WindowsAutoPilotInfo.ps1 -OutputFile "D:\AutoPilotHWID.csv"
 {% endhighlight %}
 
 Now this file can be used to import device with its hash id to InTune.
-If you want to know more about the script, please visit <a href="https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/3.5">https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/3.5</a>
+If you want to know more about the script, please visit <a href="https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/3.5">https://www.powershellgallery.com/</a>

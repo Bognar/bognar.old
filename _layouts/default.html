@@ -12,7 +12,7 @@
        {{ content }}
        <div class="catmenu"><h1>What about these articles</h1> <br>
         <ul style="list-style-type:none;">
-          {%- for post in site.posts -%}
+          {% for post in site.posts limit: 10 %}
           <li class="postitemsmenu">
             <h3>
               <a class="post-link" href="{{ post.url | relative_url }}">

@@ -4,6 +4,7 @@ title:  "Get Device Hardware Hash ID with PowerShell Script"
 date:   2021-02-05 14:55:31 +0000
 categories: tech, PowerShell, Autopilot, InTune
 image: /assets/img/autopilot.png
+comments: true
 ---
 Not sure how many people are actually grabbing hardware hash id manually, but I am doing it because sometimes clients are not requesting it when buying the devices in bulk. So, if you will also be in the same position as me, this is how you can get hash id, save it to usb and upload to the InTune for autopilot process.
 

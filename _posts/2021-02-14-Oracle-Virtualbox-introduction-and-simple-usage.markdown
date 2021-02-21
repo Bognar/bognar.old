@@ -5,6 +5,7 @@ date:   2021-02-14 21:15:31 +0000
 author: Josip Bognar
 categories: tech, Oracle, Virtualization
 image: /assets/img/vbox.jpg
+comments: true
 ---
 If you are working in any branch of IT, you have got in touch with virtual machines or software to create them. In this post, I will go in short with the Oracle VirtualBox, a cross-platform virtualization application that can be run on Windows, Mac OS X, Linux, or Oracle Solaris operating systems (OSes).
 Now, this software is free and will extend the capabilities of your existing computer so that it can run multiple OSes, inside multiple virtual machines, at the same time. 

@@ -5,6 +5,7 @@ date:   2021-02-07 15:53:31 +0000
 categories: tech, Web Development
 author: Josip Bognar
 image: /assets/img/arjs.png
+comments: true
 ---
 Augmented reality (AR) was one of the biggest technology trends of 2017 and while many developers still are trying to find a good online library, there are a few scripts out there that can give us really nice effects.
 

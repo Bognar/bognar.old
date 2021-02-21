@@ -5,6 +5,7 @@ date:   2021-02-10 22:25:31 +0000
 author: Josip Bognar
 categories: tech, Tools, 
 image: /assets/img/tool.png
+comments: true
 ---
 This post is based on my experience working on different accounts and projects. For me, it requires a lot of traveling so backpacks need to be as light as possible. We have limited space in our backpack but still, some small tools can be handy to have when you go to locations or clients where you will need to do some testing or checking.
 

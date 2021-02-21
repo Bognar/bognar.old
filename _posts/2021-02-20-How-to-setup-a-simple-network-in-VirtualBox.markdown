@@ -5,6 +5,7 @@ date:   2021-02-20 09:15:31 +0000
 author: Josip Bognar
 categories: tech, Oracle, Virtualization, networking
 image: /assets/img/topology.png
+comments: true
 ---
 In one of my previous article, I have explained a bit more about Oracle VirtualBox and today we will talk about how to set up a small network with Active Directory, DNS, and DHCP but only the networking part of the setup, we won't go into details how to install or choose your domain, etc. This will enable us to add other VM's to the domain and play with GPO's.
 

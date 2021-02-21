@@ -5,6 +5,7 @@ date:   2021-02-10 22:25:31 +0000
 author: Josip Bognar
 categories: tech, CMD, Active Directory
 image: /assets/img/gpresult.png
+comments: true
 ---
 One of the most common things for each engineer who works on the helpdesk, service desk, or desk-side is GPO’s (Group Policy). It is a way how to configure many important settings on user computers or networks and by using the Active Directory we can apply those settings to users, computers, groups of users, and groups of computers.
 

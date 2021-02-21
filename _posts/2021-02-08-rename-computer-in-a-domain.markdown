@@ -5,6 +5,7 @@ date:   2021-02-08 19:28:31 +0000
 author: Josip Bognar
 categories: PowerShell, Active Directory
 image: /assets/img/ccn.png
+comments: true
 ---
 
 There is always a question about what a proper way is to rename a device that is joined to a domain. From my experience, it is best to remove it from the domain, rename and return it to the domain thou some people just rename it, but it is not necessary a proper way.

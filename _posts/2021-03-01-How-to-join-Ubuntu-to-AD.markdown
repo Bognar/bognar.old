@@ -2,6 +2,7 @@
 layout: post
 title:  "How to join Ubuntu to the local AD"
 date:   2021-03-01 14:55:31 +0000
+Author: Josip Bognar
 categories: Active Directory, Ubuntu, Linux
 image: /assets/img/ubuntu-20-04-focal-fossa.jpg
 comments: true

@@ -12,7 +12,7 @@ We will need a few things from that post, and you will need to get that informat
 
 <img src="{{ page.image }}">
 <br><br>
-First thing is to open the terminal and update the system to the latest updates:
+The first thing is to open the terminal and update the system to the latest updates:
 {% highlight ruby %}
 sudo apt update & sudo apt upgrade -y
 

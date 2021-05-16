@@ -10,6 +10,14 @@ I didn't write any post for almost two months; well, I was sharpening my skills 
 
 In the example below, we will show you how to port the old dos game to docker and how to access it using VNC remote connection.
 
+Important! 
+1. The file "Dockerfile" has no extension so on Windows OS, create it with any text editor.
+2. You need to install Docker from their website.
+3. You can clone my repo if you like on link: https://github.com/Bognar/dockeraladdin
+4. It is advised to stop docker image if you are not using it and to find images use command 'docker ps -a' and to stop image 'docker stop imageid'
+5. This post wont explain how to use docker, only demonstrate possible usage for creating container and hosting DOS apps in it.
+6. You might find similar codes on the net but, this codes are working comparing to many blogs posts that had typos or missing extras. 
+
 <img src="{{ page.image }}">
 <br><br>
 For the start, create a new folder and in that folder, we need to create "Dockerfile". On my Linux, I do 'sudo nano Dockerfile' and then we can copy and paste the code below to the file. We also need to create a folder aladdin for the game so, download it from any google source and extract the game to aladdin folder. As can be seen from the file, we will be using ubuntu 20.04 but you can also use Alpine(smallest Linux distro). 

@@ -17,7 +17,7 @@ If you install it on your Android device, you will always have access to it and 
 
 <img src="{{ page.image }}">
 <br><br>
-Just so that there is a fine line of clarity, this is not something unsecure but keep in mind that you need a bit of understanding why you need Termux and Kali and also, to be confident about your phone security by having good understanting of these apps and Android OS. It is good to point out that this installation does not require root access!
+Just so that there is a fine line of clarity, this is not something unsecure but keep in mind that you need a bit of understanding why you need Termux and Kali and also, to be confident about your phone security by having good understanding of these apps and Android OS. It is good to point out that this installation does not require root access!
 
 Rootless Kali linux is being deployed by NetHunter, which is official edition and part of Kali distribution found on [Kali website](% link https://www.kali.org/docs/nethunter/nethunter-rootless/ %).
 

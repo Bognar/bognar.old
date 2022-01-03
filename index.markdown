@@ -7,7 +7,7 @@ layout: default2
 <div>
 <span><img class="feather" src="/assets/img/personal.jpg"></span> <br>
 <span class="feathertext"><h2>Hi! My name is Josip.</h2><br>
-I am hobby Full-Stack developer and Service Desk Engineer who loves IoT. If you want to connect or check some of my blog posts about what I found useful, how to do things, and also what is the inspiration for me these days, feel free to do so. 
+I am hobby Full-Stack developer, Cybersecurity enthusiast and IT engineer lvl III who loves IoT. If you want to connect or check some of my blog posts about what I found useful, how to do things, and also what is the inspiration for me these days, feel free to do so. 
 <br> <br>
 My achievements and certificates on <a href="https://www.credly.com/users/josip-bognar">Credly website</a>
 <br>

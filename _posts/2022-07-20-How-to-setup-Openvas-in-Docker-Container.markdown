@@ -60,4 +60,4 @@ Get list of users: openvasmd --get-users
 Create a new user:openvasmd --create-user=dookie
 {% endhighlight %}
 
-The OpenVAS is free, but the Greenbone Networks company has enterprise level edition also. This is maybe not the best solution when it comes to security, but it is free and much better than having nothing. Some of alternativ solutions are Qualys, Nessus, Intrude, Zscaler and most of them cost a few thousend monthley. 
+The OpenVAS is free, but the Greenbone Networks company has enterprise-level edition also. This is maybe not the best solution when it comes to security, but it is free and much better than having nothing. Some alternative solutions are Qualys, Nessus, Intrude, Zscaler and most of them cost a few thousand monthly.
